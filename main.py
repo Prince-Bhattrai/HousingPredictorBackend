@@ -13,6 +13,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",
+    "https://housing-predictor-ebon.vercel.app/",
 ]
 
 app.add_middleware(
